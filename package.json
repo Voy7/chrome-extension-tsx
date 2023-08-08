@@ -1,7 +1,7 @@
 {
   "name": "chrome-extension-tsx",
   "version": "1.0.0",
-  "description": "Get started with Chrome extensions development using webpack, Typescript, Sass, and more",
+  "description": "Get started with Chrome extensions development using Webpack, Typescript, React, Sass, and more.",
   "author": "Voy7",
   "type": "module",
   "scripts": {
@@ -17,6 +17,7 @@
     "@types/react": "^18.2.14",
     "@types/react-dom": "^18.2.6",
     "babel-loader": "^8.2.5",
+    "babel-plugin-react-require": "^4.0.1",
     "copy-webpack-plugin": "^11.0.0",
     "css-loader": "^6.7.1",
     "mini-css-extract-plugin": "^2.6.1",
