@@ -1,6 +1,6 @@
 {
-  "name": "chrome-extension-webpack",
-  "description": "My basic Chrome extension",
+  "name": "chrome-extension-tsx-template",
+  "description": "My Chrome extension",
   "version": "0.1.0",
   "manifest_version": 3,
   "background": {
@@ -9,7 +9,8 @@
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": ["contentScripts.js"]
+      "js": ["contentScripts.js"],
+      "css": ["styles/contentScripts.css"]
     }
   ],
   "permissions": ["storage", "scripting"],
